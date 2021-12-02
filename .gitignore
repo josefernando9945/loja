@@ -16,9 +16,7 @@ media
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-.idea/
-*.sqlite3
-*.sqlite
+
 # AWS User-specific
 .idea/**/aws.xml
 
@@ -137,3 +135,8 @@ GitHub.sublime-settings
 !.vscode/launch.json
 !.vscode/extensions.json
 .history
+.idea/
+*.sqlite
+*.sqlite3
+*.xml
+vcs.xml
