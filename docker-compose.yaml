@@ -1,0 +1,23 @@
+version: "3.1"
+services:
+  tad:
+    image: postgres:9.6
+    container_name: "loja"
+    environment:
+      - POSTGRES_DB=lojavic
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - TZ=GMT
+    ports:
+      - 5432:5432
+#  db:
+#    image: mariadb
+#    container_name: novainstancia
+#    environment:
+#      MYSQL_ROOT_PASSWORD: root
+#      MYSQL_DATABASE: novainstancia
+#      MYSQL_PASSWORD: root
+#    ports:
+#      - "3316:3306"
+
+# Use postgres/example user/password credentials
