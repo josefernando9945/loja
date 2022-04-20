@@ -7,7 +7,9 @@ class Produtos(models.Model):
         verbose_name = 'Produto'
 
     nome = models.CharField(max_length=255)
+
     categoria = models.CharField(max_length=255)
+
     colecao = models.CharField(max_length=255)
 
     def __str__(self):
